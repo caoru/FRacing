@@ -27,6 +27,9 @@
 *.i*86
 *.x86_64
 *.hex
+fracing
+config_test
+fb_test
 
 # Debug files
 *.dSYM/
