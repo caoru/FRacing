@@ -20,6 +20,8 @@
 #include "framebuffer.h"
 #include "fbbutton.h"
 
+#define BTN_LIST_ADD(node)	list_add(&((node)->list), &fb_buttons)
+
 static int palette [] =
 {
 	0x000000, 0xffe080, 0xffffff, 0xe0c0a0, 0x304050, 0x80b8c0

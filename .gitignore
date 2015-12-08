@@ -7,12 +7,14 @@
 # Precompiled Headers
 *.gch
 *.pch
+.deps
 
 # Libraries
 *.lib
 *.a
 *.la
 *.lo
+.libs
 
 # Shared objects (inc. Windows DLLs)
 *.dll
@@ -33,3 +35,12 @@ fb_test
 
 # Debug files
 *.dSYM/
+
+# Autotools
+autom4te.cache
+config.h
+config.log
+config.status
+libtool
+stamp-h1
+Makefile
